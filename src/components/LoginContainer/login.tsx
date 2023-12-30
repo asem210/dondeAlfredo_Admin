@@ -13,7 +13,7 @@ export const LoginContainer: React.FC<{
 }> = ({ handleauth }) => {
   const [email, setEmail] = useState("jordy.mayhuay@gmail.com");
   const [emailState, setEmailState] = useState(false);
-  const [password, setPassword] = useState("jordy1234");
+  const [password, setPassword] = useState("hola12345");
   const [passwordState, setPasswordState] = useState(false);
 
   const submitClick = async (emailValue: string, passwordValue: string) => {
@@ -40,7 +40,7 @@ export const LoginContainer: React.FC<{
         <div className="app-container-header">
           <img
             style={{ width: "200px" }}
-            src='https://dondealfredo.com/wp-content/uploads/2022/11/LOGO_-e1667286697526.jpg'
+            src="https://dondealfredo.com/wp-content/uploads/2022/11/LOGO_-e1667286697526.jpg"
             alt="Brisas Marinas Logo"
           />
           <h1>Donde Alfredo</h1>
